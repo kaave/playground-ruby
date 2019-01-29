@@ -2,8 +2,8 @@
 
 ## System requirements
 
-* `>= ruby 2.5.0`
-* `>= bundler 1.16.1`
+- `ruby 2.5.3`
+- `>= bundler 1.17.0`
 
 ## How to use
 
@@ -12,5 +12,9 @@
 bundle install --path=vendor/bundle -j4
 bundle install --binstubs
 # run pry
-pry
+bundle exec pry
+# run test
+bundle exec rspec
+# run test(watch)
+bundle exec guard
 ```

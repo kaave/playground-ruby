@@ -8,6 +8,7 @@ group :development do
   gem 'pry'
   gem 'pry-byebug'
 
+  # linter & formatter
   gem 'rubocop'
   gem 'rubocop-airbnb'
   gem 'rufo'
