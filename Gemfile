@@ -21,8 +21,11 @@ group :development do
 end
 
 group :test do
-# test
+  # test
   gem 'rspec'
   gem 'capybara'
 
+  # watcher
+  gem 'guard'
+  gem 'guard-rspec'
 end
