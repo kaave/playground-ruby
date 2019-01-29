@@ -1,4 +1,4 @@
-require 'spec_helper'
+require "spec_helper"
 
 describe Calc do
   describe "add" do
