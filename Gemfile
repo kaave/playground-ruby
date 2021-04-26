@@ -14,7 +14,7 @@ group :development do
   gem 'rufo'
 
   # debugger
-  gem 'ruby-debug-ide', '~> 0.6.0'
+  gem 'ruby-debug-ide', '~> 0.7.0'
   gem 'debase'
 
   # autocomplete tool
